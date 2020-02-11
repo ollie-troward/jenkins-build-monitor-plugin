@@ -15,7 +15,7 @@ public class CssStatus {
     private static final Map<Result, String> statuses = new HashMap<Result, String>() {{
         put(SUCCESS,   "successful");
         put(UNSTABLE,  "unstable");
-        put(FAILURE,   "failing");
+        put(FAILURE,   "failing shake");
         put(NOT_BUILT, "unknown");
         put(ABORTED,   "aborted");
     }};
